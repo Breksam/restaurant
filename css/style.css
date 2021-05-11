@@ -232,23 +232,50 @@ a.nav-link:focus , a.nav-link:hover
 /* end reservation section */
 
 /* start footer */
-footer
+#contact
 {
-    width: 100%;
-    height: auto;
-    margin-top:100px;
-    text-align: center;
+    margin-top:200px;
+    padding-top:100px;
+    color: rgb(68, 68, 68);
+    background-color:#f9f9f9;
+    font-size:16px;
+    line-height:1.8;
+    word-spacing:3px;
+}
+footer h5
+{
+    color: rgb(238, 204, 10);
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+footer .text 
+{
+    border: none;
+    width:300px;
+    height:50px;
+    padding-left:10px;
+    background-color: rgb(238, 204, 10,.2);
+}
+footer .submit
+{
+    margin-top:30px;
+    width:300px;
+    background-color:rgb(68, 68, 68);
+    color: white;
+}
+footer .submit:hover
+{
+    background-color:rgb(238, 204, 10,.9);
     color: rgb(68, 68, 68);
 }
-footer h4
+footer .social
 {
-    margin-bottom:15px;
+    margin-top:20px;
 }
-footer .bo
+footer a, footer a:hover
 {
-    border: 2px solid black;
-    border-radius:20%;
-    padding:15px;
+    color: rgb(68, 68, 68);
+    text-decoration:none;
 }
 footer .bg
 {
@@ -262,6 +289,34 @@ footer .bg p
     font-size:15px;
     text-align: center;
     padding-top:20px;
+}
+
+/* media query footer */
+@media (max-width: 1200px) 
+{
+    #contact
+    {
+        margin-top:150px;
+        padding-top:80px;
+        text-align: center;
+        font-size:17px;
+    }
+    footer .sm
+    {
+        font-size:30px;
+    }
+    footer h5
+    {
+        font-size:25px;
+        margin-top:27px;
+        margin-bottom:5px;
+        letter-spacing:1px;
+    }
+    footer .submit
+    {
+        margin-top:10px;
+    }
+
 }
 /* end footer */
 
