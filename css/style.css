@@ -144,6 +144,10 @@ a.nav-link:focus , a.nav-link:hover
         font-size:17px;
         line-height: 1.5;
     }
+    #about .row .img
+    {
+        width:100%;
+    }
 }
 /* end about section */
 
