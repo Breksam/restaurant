@@ -128,10 +128,23 @@ a.nav-link:focus , a.nav-link:hover
     border:none;
     color:rgb(68, 68, 68);
 }
+
+/* media query about & product section */
+@media (max-width: 1200px) 
+{
+    .equal .narrow
+    {
+        margin:40px 0;
+    }
+    .equal .narrow .lead
+    {
+        font-size:17px;
+        line-height: 1.5;
+    }
+}
 /* end about section */
 
 /* Start Service section */
- 
 #services
 {
     margin-top: 7%;
