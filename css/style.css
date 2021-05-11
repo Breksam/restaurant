@@ -99,7 +99,7 @@ a.nav-link:focus , a.nav-link:hover
 }
 #about .row .img
 {
-    background-image: url(../img/food.jpg);
+    background-image: url(../img/chef.jpg);
     height:507px;
     background-size: cover;
     position: relative;
