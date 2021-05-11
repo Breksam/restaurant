@@ -244,3 +244,28 @@ footer .bg p
     padding-top:40px;
 }
 /* end footer */
+
+/* start scroll top */
+#scroll-top
+{
+width: 38px;
+height:36px;
+background-color:rgb(238, 204, 10);
+color:rgb(27, 27, 27);
+text-align:center;
+position: fixed;
+right:25px;
+bottom:28px;
+border-radius:55%;
+padding:2px;
+z-index:9999;
+display:none;
+cursor: pointer;
+}
+#scroll-top:hover
+{
+    color: white;
+    background-color:rgb(27, 27, 27);
+}
+/* end scroll top */
+
