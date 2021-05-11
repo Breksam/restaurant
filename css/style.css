@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Righteous', cursive;
+    transition: all .5s linear;
 }
 
 /* general */
@@ -46,7 +47,7 @@ a.nav-link:focus , a.nav-link:hover
     padding:10px;
 }
 
-/*media query of navbar  */
+/* media query of navbar */
 @media (max-width: 1200px) 
 {
     .bg-light 
@@ -60,6 +61,7 @@ a.nav-link:focus , a.nav-link:hover
     }
 }
 /* end navbar */
+
 
 /* start carousel-inner */
 .carousel-control-prev:hover, .carousel-control-next:hover
@@ -152,6 +154,7 @@ a.nav-link:focus , a.nav-link:hover
 /* end about section */
 
 /* Start Service section */
+
 #services
 {
     margin-top: 7%;
@@ -178,50 +181,37 @@ a.nav-link:focus , a.nav-link:hover
     margin-bottom:15px;
 }
 
-
 /* start reservation section  */
 #reservation
 {
-    width: 100%;
-    height: auto;
-    margin:100px 0 ;
-    padding:80px 0 ;
-    background-color:#f9f9f9;
+    padding:50px 0 ;
 }
-#reservation form
+#reservation h3
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: rgb(238, 204, 10);
+    text-align: center;
 }
-#reservation form h3
-{
-    color:rgb(68, 68, 68);
-    margin-bottom:15px;
-}
-#reservation form h5
-{
-    margin-top:10px;
-}
-#reservation form input,
-#reservation form label 
+#reservation .container form input,
+#reservation .container form label 
 {
     display: block;
-    margin-bottom:5px;
-    width:400px;
+    margin-bottom:10px;
+    width:100%;
 }
 #reservation form input
 {
     height:40px;
     border: none;
     padding:10px;
+    background-color:#f9f9f9;
 }
 #reservation form a
 {
     margin-top:15px;
-    width: 400px;
+    width:100%;
     border: none;
+    color: white;
+    background-color:rgb(68, 68, 68);
 }
 #reservation form a:hover
 {
@@ -229,13 +219,22 @@ a.nav-link:focus , a.nav-link:hover
     border:none;
     color:rgb(68, 68, 68);
 }
+
+/* media query reservation form */
+@media  (max-width: 1200px)
+{
+    #reservation form input,
+    #reservation form label 
+    {
+        width:100%;
+    }
+}
 /* end reservation section */
 
 /* start footer */
 #contact
 {
-    margin-top:200px;
-    padding-top:100px;
+    padding-top:50px;
     color: rgb(68, 68, 68);
     background-color:#f9f9f9;
     font-size:16px;
@@ -343,4 +342,3 @@ cursor: pointer;
     background-color:rgb(27, 27, 27);
 }
 /* end scroll top */
-
