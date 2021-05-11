@@ -255,13 +255,13 @@ footer .bg
     margin-top:80px;
     background-color:rgb(27, 27, 27);
     color: white;
-    height:100px;
+    height:70px;
 }
 footer .bg p
 {
-    font-size:20px;
+    font-size:15px;
     text-align: center;
-    padding-top:40px;
+    padding-top:30px;
 }
 /* end footer */
 
