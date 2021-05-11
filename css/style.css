@@ -97,6 +97,10 @@ a.nav-link:focus , a.nav-link:hover
     font-size:17px;
     color: rgb(68, 68, 68);
 }
+#about .row p span
+{
+    color:rgb(238, 204, 10);
+}
 #about .row .img
 {
     background-image: url(../img/chef.jpg);
@@ -116,12 +120,11 @@ a.nav-link:focus , a.nav-link:hover
     font-size:18px;
     line-height:1.8;
 }
-#about .row .img p a , #about .row .img p a:hover 
+#about .row .img p a 
 {
     margin-bottom:7px;
     border:none;
 }
-#about .row p a:hover ,
 #about .row .img p a:hover , .navbar .collapse ul li .btn:hover
 {
     background-color:rgb(238, 204, 10);
